@@ -1,3 +1,5 @@
+import Notification from './components/Notification';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Notification text="Salomon" />  
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -15,8 +18,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React2345
         </a>
+        <Notification text="TEXT" logo="https://ifab.se/wp-content/uploads/2019/12/Your_Logo-OUR-PRODUCTS.png" />  
       </header>
     </div>
   );
