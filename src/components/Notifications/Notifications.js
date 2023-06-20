@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import Button from "../Button/Button";
 
-const Notifications = ({button, text, color, sizeBut}) => {
+const Notifications = ({buttonText, text, color, sizeBut}) => {
     return (
         <div className="notifications">
             <div className="action">
@@ -11,7 +11,7 @@ const Notifications = ({button, text, color, sizeBut}) => {
                 </p>
                 <img className="close" src="https://cdn.onlinewebfonts.com/svg/download_29332.png" />
             </div>
-           <Button button= {button} color={color} sizeBut={sizeBut}/>
+           <Button buttonText= {buttonText} color={color} sizeBut={sizeBut}/>
            
         </div>
         
