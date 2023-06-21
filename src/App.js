@@ -1,4 +1,4 @@
-import Notification from './components/Notification';
+import WidgetApps from './components/WidgetApps/WidgetApps';
 
 import logo from './logo.svg';
 import './App.css';
@@ -8,10 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Notification text="Salomon" />  
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+       
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -20,7 +17,7 @@ function App() {
         >
           Learn React2345
         </a>
-        <Notification text="TEXT" logo="https://ifab.se/wp-content/uploads/2019/12/Your_Logo-OUR-PRODUCTS.png" />  
+        <WidgetApps />
       </header>
     </div>
   );
