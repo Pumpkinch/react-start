@@ -1,0 +1,20 @@
+.WidgetButton {
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px 12px;
+    width: 128px;
+    border: 1px solid #39444F;
+    border-radius: 6px;
+    background: none;
+}
+
+.butText {
+    color: #39444F;
+    white-space: nowrap;
+    font-family: 'Verdana';
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-left: 6px;
+    padding-top: 1px;
+}
