@@ -1,40 +1,20 @@
-.button {
+.WidgetButton {
     box-sizing: border-box;
-
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 5px 12px;
-
-
     width: 128px;
-    height: 30px;
-
     border: 1px solid #39444F;
     border-radius: 6px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    background: none;
 }
 
 .butText {
     color: #39444F;
-
-    height: 16px;
     white-space: nowrap;
-
     font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 400;
     font-size: 11px;
     line-height: 16px;
-
     text-transform: uppercase;
-    margin-left: -10px;
+    padding-left: 6px;
     padding-top: 1px;
-}
-
-.smallIcon {
-    margin-left: -35px;
 }
