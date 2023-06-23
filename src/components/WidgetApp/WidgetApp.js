@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import WidgetButton from "../WidgetButton/WidgetButton";
+import WidgetButton from "../WidgetButton";
 
 const WidgetApp = ({ icon, heading, text, smallIcon, butText }) => {
     return (
