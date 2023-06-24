@@ -1,4 +1,6 @@
-import Notifications from './components/Notifications';
+
+import WidgetApps from './components/WidgetApps/WidgetApps';
+
 
 import logo from './logo.svg';
 import './App.css';
@@ -8,7 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Notifications text="Изменение пароля" buttonText="продолжить" />
+
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,10 +20,9 @@ function App() {
         >
           Learn React2345
         </a>
-        <Notifications text="Изменение пароля" buttonText="продолжить" color="green" sizeBut="normal-size"/>
-        
-        <Notifications text="Изменение пароля" buttonText="продолжить" color="red" sizeBut="big-size"/>
-        
+
+        <WidgetApps />
+
       </header>
     </div>
   );
