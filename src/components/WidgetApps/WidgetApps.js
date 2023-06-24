@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
 import smallIcon1 from "../../small-icon1.svg";
-import image from "../../img-index.svg";
-import icon1 from "../../icon1.svg";
-import icon2 from "../../icon2.svg";
-import icon3 from "../../icon3.svg";
+import image from "../../img-main.svg";
+import icon1 from "./icons/icon1.svg";
+import icon2 from "./icons/icon2.svg";
+import icon3 from "./icons/icon3.svg";
 import WidgetApp from "../WidgetApp/WidgetApp";
 
-const WidgetApps = ({ }) => {
+const WidgetApps = () => {
     return (
         <div className={["WidgetApps"].join(" ")}>
             <div className="row">
@@ -20,7 +20,7 @@ const WidgetApps = ({ }) => {
 
                     </div>
                 </div>
-                <div class="image-index"><img src={image} /></div>
+                <img className="image-main" src={image} />
             </div>
         </div>
     )

@@ -1,5 +1,4 @@
-
-import WidgetApps from './components/WidgetApps/WidgetApps';
+import WidgetApps from './components/WidgetApps';
 
 
 import logo from './logo.svg';

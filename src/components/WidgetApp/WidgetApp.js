@@ -1,15 +1,15 @@
 import React from "react";
 import "./styles.css";
-import WidgetButton from "../WidgetButton/WidgetButton";
+import WidgetButton from "../WidgetButton";
 
 const WidgetApp = ({ icon, heading, text, smallIcon, butText }) => {
     return (
         <div className={["WidgetApp"].join(" ")}>
             <div className="card">
-                <img src={icon}></img>
+                <img className="cardImg" src={icon}></img>
                 <div className="cardText">
                     <h1 className="heading">{heading}</h1>
-                    <p>{text}</p>
+                    <p className="description">{text}</p>
                     <WidgetButton smallIcon={smallIcon} butText="для ANDROiD" />
                 </div>
             </div>

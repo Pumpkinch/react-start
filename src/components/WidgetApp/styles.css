@@ -6,63 +6,32 @@
     border-radius: 6px;
 }
 
-.card img {
+.cardImg {
     float: left;
     padding-left: 34px;
     padding-right: 16px;
-    padding-top: -25%;
-    padding-bottom: -25%;
 }
 
-.card h1 {
+.heading {
+    height: 12px;
     width: 216px;
-    height: 2px;
-
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
+    white-space: nowrap;
     font-size: 16px;
-    line-height: 2px;
-
-    letter-spacing: -0.1px;
-
     color: #39444F;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    margin-top: 0px;
+    padding-bottom: 2px;
 }
 
-.card p {
+.description {
     width: 549px;
-    
-
     font-family: 'Verdana';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 16px;
-
     color: #39444F;
+    margin-top: 0px;
 }
 
 .cardText {
     width: 500px;
-    height: 76px;
     text-align: left;
-}
-
-.heading {
-    width: 216px;
-    height: 24px;
-    white-space: nowrap;
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-
-    letter-spacing: -0.1px;
-
-    color: #39444F;
 }
