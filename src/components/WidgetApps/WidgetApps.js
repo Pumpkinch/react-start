@@ -5,7 +5,7 @@ import image from "../../img-main.svg";
 import icon1 from "./icons/icon1.svg";
 import icon2 from "./icons/icon2.svg";
 import icon3 from "./icons/icon3.svg";
-import WidgetApp from "../WidgetApp/WidgetApp";
+import WidgetApp from "../WidgetApp";
 
 const WidgetApps = () => {
     return (
