@@ -1,5 +1,6 @@
 import WidgetApps from './components/WidgetApps';
 
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -49,7 +50,8 @@ function App({ isEnabled }) {
     <div className="App">
       <header className="App-header">asd
         <img src={logo} className="App-logo" alt="logo" />
-       
+
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -73,6 +75,7 @@ function App({ isEnabled }) {
           return <div>{dataElement.text}</div>
         })}
         <WidgetApps />
+
       </header>
     </div>
   );
