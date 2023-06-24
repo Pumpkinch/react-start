@@ -1,0 +1,74 @@
+.notifications {
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    height: 219px;
+
+    border-radius: 6px;
+    Padding: 34px, 16px, 34px, 16px;
+    border: 1px solid rgb(0, 15, 128);
+    gap: 16px;
+}
+
+.image {
+    width: 300px;
+}
+
+.abzac {
+    width: 238px;
+    height: 64px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+
+    text-align: left;
+
+    letter-spacing: -0.3px;
+
+    color: #39444F;
+
+    padding-left: 16px;
+    margin-top: 34px;
+
+}
+
+.action {
+    display: flex;
+}
+
+.close {
+    width: 24px;
+    height: 24px;
+    padding-left: 276px;
+    padding-top: 38px;
+    position: absolute;
+}
+
+.continue {
+    /* Auto layout */
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 20px;
+    gap: 4px;
+
+    width: 129px;
+    height: 42px;
+
+    /* Blue Primary */
+
+    background: #478CC8;
+    border-radius: 45px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
