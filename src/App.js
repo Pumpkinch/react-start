@@ -1,14 +1,17 @@
 import WidgetApps from './components/WidgetApps';
+import Popap from './components/Popap';
 
 import logo from './logo.svg';
 import './App.css';
 
+
+
 function App({ isEnabled }) {
   return (
+    <>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-
 
         <a
           className="App-link"
@@ -17,11 +20,14 @@ function App({ isEnabled }) {
           rel="noopener noreferrer"
         >
           Learn React2345
-        </a>       
+        </a>   
+        <Popap/> 
+
         <WidgetApps />
 
       </header>
     </div>
+    </>
   );
 }
 
