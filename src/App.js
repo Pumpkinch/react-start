@@ -1,29 +1,33 @@
 import WidgetApps from './components/WidgetApps';
-
+import Popap from './components/Popap';
 
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+
+
+function App({ isEnabled }) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
 
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           Learn React2345
-        </a>
+          </a>   
+          <Popap/> 
 
-        <WidgetApps />
+          <WidgetApps />
 
-      </header>
-    </div>
+        </header>
+      </div>
+    </>
   );
 }
 

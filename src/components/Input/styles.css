@@ -1,0 +1,82 @@
+.Input {
+    width: 288px;
+    height: 76px;
+}
+
+.passText {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    margin-left: 20px;
+
+}
+
+.inputPass {
+    width: 240px;
+    height: 32px;
+
+    border-width: 1px;
+    border-radius: 1px;
+    margin-left: 20px;
+    border-color: #DDDFE1;
+    border-style: solid;
+    margin-top: -10px;
+    outline: none;
+}
+
+.entry {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+
+.eye {
+    height: 36.0px;
+    text-align: right;
+    border-width: 1px;
+    background-color: white;
+    border-left: 0;
+    cursor: pointer;
+    border-radius: 1px;
+    margin-left: -6px;
+    border-color: #DDDFE1;
+    border-style: solid;
+    margin-top: -10px;
+}
+
+.action {
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
+    /* visibility: hidden; */
+}
+
+.error {
+    color: #D0021B;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.subText {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #8C969D;
+    margin-left: 20px;
+}
+
+.line {
+    color:#64B82A;
+    border: solid;
+}
+
+
