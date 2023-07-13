@@ -1,8 +1,10 @@
+
 import React, { useState } from "react";
 import "./styles.css";
 import Close from '../../close.png';
 import Input from '../Input';
 import Button from '../Button/Button';
+
 
 const Popap = () => {
     const [isCurrentPassHide1, setCurrentPassHide1] = useState(true);
@@ -19,7 +21,11 @@ const Popap = () => {
                 <button className="close"><img src={Close} /></button>
             </div>
 
-            <p className="loginText">логин <br /><span>amaxbox.ya</span></p>
+    <p className="loginText">
+      логин
+      <br />
+      <span>amaxbox.ya</span>
+    </p>
 
             <Input
                 underText='Текущий пароль'
