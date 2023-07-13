@@ -33,10 +33,10 @@
 }
 
 .eye {
-    height: 36.0px;
+    height: 35.5px;
     text-align: right;
     border-width: 1px;
-    background-color: white;
+    background-color:white;
     border-left: 0;
     cursor: pointer;
     border-radius: 1px;
@@ -61,17 +61,14 @@
     letter-spacing: -0.30000001192092896px;
     text-align: left;
     margin-left: 20px;
+    
 
 }
 
 .subText {
     font-size: 12px;
     font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0px;
-    text-align: left;
     color: #8C969D;
-    margin-left: 20px;
 }
 
 .line {
@@ -79,4 +76,12 @@
     border: solid;
 }
 
+.success {
+    color: green;
+
+}
+
+.error-input {
+    background-color: #D0021B;
+}
 
