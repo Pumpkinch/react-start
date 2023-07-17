@@ -1,5 +1,5 @@
 import WidgetApps from './components/WidgetApps';
-import Popap from './components/Popap';
+import Popup from './components/Popup/Popup';
 
 import logo from './logo.svg';
 import './App.css';
@@ -21,7 +21,7 @@ function App({ isEnabled }) {
         >
           Learn React2345
         </a>   
-        <Popap/> 
+        <Popup/> 
 
         <WidgetApps />
 

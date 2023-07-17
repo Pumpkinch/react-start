@@ -1,29 +1,28 @@
 import React from "react";
-import { useState } from 'react';
 import "./styles.css";
-import eyeOpen from "../../eyeOpen.svg";
-import eyeClose from "../../eyeClose.svg";
+import eyeOpen from "./eyeOpen.svg";
+import eyeClose from "./eyeClose.svg";
 
 // type = default, error, success
-const Input = ({ underText, value, subText, type, success, error, afterIcon, isHide, afterIconAction, onChange }) => {
-const handleChange = (event) => {
-    onChange && onChange(event);
-}
+const Input = ({ subText, type, underText, isHide, afterIconAction, afterIcon, onChange }) => {
+    const handleChange = (event) => {
+        onChange && onChange(event);
+    }
 
     return (
         <div>
-
-            <p className="passText">{underText}</p>
+            <p className="underText">
+                {underText}
+            </p>
             <div className="entry">
-                <input  onChange={handleChange} className={["inputPass", type === 'error' && 'error-input' ].join(' ')}></input>
-                <button className="eye" onClick={afterIconAction}>
-                    <img src={isHide ? eyeClose : eyeOpen} alt="img"/>
+                <input onChange={handleChange} className={["inputPass", type === 'error' && 'error-input'].join(' ')}></input>
+                <button className={["eye"].join(' ')} onClick={afterIconAction}>
+                    <img src={isHide ? eyeClose : eyeOpen} alt="img" />
                 </button>
-
             </div>
-            
-            <p className={['subText', type ? type : 'default'].join(" ")}>{subText}</p>
-            {/* <hr className="line">{success}</hr> */}
+            <p className={['subText', type === 'success' && 'success', type === 'error' && 'error-text'].join(" ")}>
+                {subText}
+            </p>
         </div>
     )
 }

@@ -1,87 +1,45 @@
-.Input {
-    width: 288px;
-    height: 76px;
-}
-
-.passText {
-    text-align: left;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0px;
-    margin-left: 20px;
-
+.underText {
+    margin-bottom: 20px;
 }
 
 .inputPass {
-    width: 240px;
-    height: 32px;
-
-    border-width: 1px;
-    border-radius: 1px;
-    margin-left: 20px;
+    width: 288px;
+    border-radius: 2px 0 0 2px;
     border-color: #DDDFE1;
     border-style: solid;
     margin-top: -10px;
     outline: none;
+
 }
 
 .entry {
     display: flex;
-    margin-top: 20px;
+    height: 26px;
     position: relative;
 }
 
 .eye {
-    height: 35.5px;
-    text-align: right;
-    border-width: 1px;
-    background-color:white;
-    border-left: 0;
+    position: absolute;
+    background-color: inherit;
     cursor: pointer;
-    border-radius: 1px;
-    margin-left: -6px;
-    border-color: #DDDFE1;
-    border-style: solid;
-    margin-top: -10px;
-}
-
-.action {
-    background-color: white;
-    border-style: none;
-    cursor: pointer;
-    /* visibility: hidden; */
-}
-
-.error {
-    color: #D0021B;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: -0.30000001192092896px;
-    text-align: left;
-    margin-left: 20px;
-    
-
+    border: 0;
+    right: 30px;
 }
 
 .subText {
-    font-size: 12px;
-    font-weight: 400;
     color: #8C969D;
-}
-
-.line {
-    color:#64B82A;
-    border: solid;
+    margin-top: 10px;
 }
 
 .success {
-    color: green;
+    color: #64B82A;
+}
 
+.error-text {
+    color: #D0021B;
 }
 
 .error-input {
-    background-color: #D0021B;
+    background-color: #FFF0F2;
+    border-color: #D0021B;
 }
-

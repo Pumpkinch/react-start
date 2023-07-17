@@ -1,0 +1,49 @@
+* {
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.window {
+    width: 320px; 
+    background-color: white;
+    color: #39444F;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.head {
+    height: 64px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.headingText {
+    font-size: 26px;
+    margin-right: 115px;
+}
+
+.close {
+    background-color: white;
+    margin-top: 25px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.loginText {
+    height: 4px;
+    margin-bottom: 50px;
+}
+
+span {
+    font-size: 16px;
+}
+
+a {
+    color: #478CC8;
+    text-decoration: none;
+}
+
+.line {
+    margin-left: -20px;
+}
